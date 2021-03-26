@@ -1,0 +1,73 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.affix {
+  position: fixed;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-before {
+  margin-right: .25em;
+  color: #428bca;
+}
+@media (min-width: 768px) {
+  header .navbar-form {
+    padding: 0;
+  }
+  #homepage .carousel {
+    /* margin-top: -141px; */
+  
+  }
+  #homepage .carousel .item img {
+    max-width: 1200px;
+    min-height: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #services.sysServices #svFolder dl {
+    height: 365px;
+  }
+}

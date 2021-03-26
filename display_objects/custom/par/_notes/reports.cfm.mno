@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_TESTVALUES_GetAgency" value="name:@Effective_Date;testValue:null,name:@Deactivated_Date;testValue:null,name:@SortOrder;testValue:,name:Status;testValue:,name:@RetVal;testValue:null,name:@RetMsg;testValue:null" />
+	<infoitem key="UD_TESTVALUES_GetPrograms" value="name:Agency;testValue:None,name:Year;testValue:#DateFormat(Now(),&quot;yyyy&quot;)#,name:ProgramId;testValue:1,name:@InReport;testValue:0,name:@DeletionInd;testValue:,name:@RetVal;testValue:null,name:@RetMsg;testValue:null" />
+</info>

@@ -1,0 +1,45 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .container {
+
+    width:auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width:auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width:auto;
+  }
+}

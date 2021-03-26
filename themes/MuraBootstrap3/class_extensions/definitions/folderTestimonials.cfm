@@ -1,0 +1,2 @@
+<extension type="Folder" subType="Testimonials" iconClass="icon-comments-alt" hasSummary="0" hasBody="0" hasAssocFile="0" hasConfigurator="0" hasAvailableSubtypes="1" availableSubtypes="Page/Testimonial">
+</extension>

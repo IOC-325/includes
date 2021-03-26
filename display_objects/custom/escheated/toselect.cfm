@@ -1,0 +1,1 @@
+<hr><p style="margin-top:20px;">To select another Vendor, please enter  Vendor Name and then click on "Go!" to process your inquiry.</p>

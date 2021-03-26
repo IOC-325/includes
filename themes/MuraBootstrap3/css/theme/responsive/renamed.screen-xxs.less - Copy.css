@@ -1,0 +1,64 @@
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.affix {
+  position: fixed;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-before {
+  margin-right: .25em;
+  color: #428bca;
+}
+@media (max-width: 480px) {
+  .mura-edit-mode .mura #frontEndTools > ul#tools-version,
+  .mura-edit-mode .mura #frontEndTools > ul li#adminWelcome {
+    display: none;
+  }
+  .mura-edit-mode .mura #frontEndTools > ul#adminSiteManager {
+    margin-left: 37px !important;
+  }
+}

@@ -1,0 +1,2 @@
+<extension type="Folder" subType="Team" iconClass="icon-group" hasSummary="0" hasBody="0" hasAssocFile="0" hasConfigurator="0" hasAvailableSubtypes="1" availableSubtypes="Page/TeamMember">
+</extension>

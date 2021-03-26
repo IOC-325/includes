@@ -1,0 +1,5 @@
+<cfinvoke component="/comptroller/includes/display_objects/custom/DailyTransactions/Component/DailyTransactions"
+        method="GetBacklogs"
+        LastUpdt="#DateFormat(GetLastUpdt, "mm/dd/yyyy")#"
+        srce="LedgerDB2"
+        returnVariable="GetBacklogs">

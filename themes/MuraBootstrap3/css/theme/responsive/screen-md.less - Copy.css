@@ -1,0 +1,42 @@
+@media (min-width: 992px) {
+  
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #homepage .sidebar .bordered .btn {
+    white-space: normal;
+  }
+  .hero {
+    height: 320px;
+  }
+  #navPrimary {
+    font-size: 14px;
+  }
+  .item-image:hover::before {
+    font-size: .9em !important;
+  }
+  .ledger-title {
+    font-size: 22px !important;
+    color: #07223E !important;
+  }
+  .ledger-backlog-div {
+    padding-top: 5px !important;
+  }
+  .ledger-backlog-text {
+    font-size: 10px !important;
+  }
+  .ledger-backlog {
+    font-size: 32px !important;
+  }
+  h3 a.warehouse-slim {
+    font-size: 24px !important;
+  }
+  .warehouse-line {
+    margin-top: 5px !important;
+  }
+  h3.warehouse-warehouse {
+    line-height: 30px !important;
+  }
+  h3 a.warehouse-bold {
+    font-size: 38px !important;
+  }
+}

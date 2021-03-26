@@ -1,0 +1,364 @@
+/*!
+Created by: Gary Ashbaugh
+Created Date: 11-13-14
+Description: Used in conjunction with Bootstrap css
+*/
+
+/*select {
+background-color: white !important;
+border-color: #CCC !important;
+}*/
+
+
+/*input#Email {
+	background-color: white !important;
+}
+
+.FormWrapper {
+	background-color: #FCFCFC;
+	border-color: #FCFCFC;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.FormWrapper:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid #FCFCFC;
+}*/
+
+/* hide input */
+/*input.radio:empty {
+	margin-left: -999px;
+}*/
+
+/* style label */
+/*input.radio:empty ~ label {
+	position: relative;
+	float: left;
+	line-height: 2.5em;
+	text-indent: 3.25em;
+	margin-top: 2em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input.radio:empty ~ label:before {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 2.5em;
+	background: #D1D3D4;
+	border-radius: 3px 0 0 3px;
+}*/
+
+/* toggle hover */
+/*input.radio:hover:not(:checked) ~ label:before {
+	content:'\2714';
+	text-indent: .9em;
+	color: #C2C2C2;
+}
+
+input.radio:hover:not(:checked) ~ label {
+	color: #888;
+}*/
+
+/* toggle on */
+/*input.radio:checked ~ label:before {
+	content:'\2714';
+	text-indent: .9em;
+	color: #9CE2AE;
+	background-color: #4DCB6D;
+}
+
+input.radio:checked ~ label {
+	color: #777;
+}*/
+
+/* radio focus */
+/*input.radio:focus ~ label:before {
+	box-shadow: 0 0 0 3px #999;
+}*/
+
+/* EVR and Vendor */
+/*#Heading { text-align:left; color:black; font-size:16px;}*/
+/*#Heading2 { text-align:left; color:black;}
+#Instructions { text-align:left}
+#Instructions2 {font-size:14px; font-weight:bold}
+#Instuctions3 {text-align:center; font-weight:bold; background-color:#AFB7CB}
+#VendTIN { border-color:black; border-style:solid; border-width:thin;}
+#VendTINRed { border-color:rgb(185, 74, 72); border-style:solid; border-width:thin;}
+#Password { border-color:#CCC}
+#PasswordRed { border-color:rgb(185, 74, 72)}
+#UserId{ border-color:#CCC}
+#UserIdRed{ border-color:rgb(185, 74, 72)}
+#VendTIN2 { border-color:#CCC}
+#VendTIN2Red { border-color:rgb(185, 74, 72)}
+#VendTINCheck { border-color:#CCC}
+#VendTINCheckRed { border-color:rgb(185, 74, 72)}
+#FirstName { border-color:#CCC}
+#FirstNameRed { border-color:rgb(185, 74, 72)}
+#LastName { border-color:#CCC}
+#LastNameRed { border-color:rgb(185, 74, 72)}
+#Phone2 { border-color:#CCC; border-style:solid; border-width:thin;}
+#Phone2Red { border-color:rgb(185, 74, 72); border-style:solid; border-width:thin; }
+#MobileApp { border-color:#CCC; border-style:solid; border-width:thin;  background-color:white;}
+#MobileAppRed { border-color:rgb(185, 74, 72); border-style:solid; border-width:thin;}
+#NotificationType { border-color:#CCC border-style:solid; border-width:thin; !important; background-color: white;}
+#NotificationTypeRed { border-color:rgb(185, 74, 72); border-style:solid; border-width:thin; !important; background-color: white;}
+#CellPhone2 { border-color:#CCC; border-style:solid; border-width:thin; background-color:white;}
+#CellPhone2Red { border-color:rgb(185, 74, 72); border-style:solid; border-width:thin; background-color:white;}
+#Phone { border-color:#CCC; border-style:solid; border-width:thin}
+#PhoneRed { border-color:rgb(185, 74, 72); border-style:solid; border-width:thin}
+#Email { border-color:#CCC; border-style:solid; border-width:thin;}
+#EmailRed { border-color:rgb(185, 74, 72); border-style:solid; border-width:thin;}
+#RoutingNo { border-color:#CCC}
+#RoutingNoRed { border-color:rgb(185, 74, 72)}
+#RoutingNoCheck { border-color:#CCC}
+#RoutingNoCheckRed { border-color:rgb(185, 74, 72)}
+#BankAcctNo { border-color:#CCC}
+#BankAcctNoRed { border-color:rgb(185, 74, 72)}
+#BankAcctNoCheck { border-color:#CCC}
+#BankAcctNoCheckRed { border-color:rgb(185, 74, 72)}
+#DisclaimerApproved { border-color:#CCC; border-width:thick}
+#DisclaimerApprovedRed { border-color:rgb(185, 74, 72); border-width:thick}
+#captcha { border-color:#CCC}
+#captchaRed { border-color:rgb(185, 74, 72)}
+#Addbtn {}
+#Addbtn2 {}
+#CreatePassword {}
+#ForgotPasswordbtn {}*/
+/* #Addbtn { border-color:#CCC; background-color:#AFB7CB}
+#Addbtn2 { border-color:#CCC; background-color:#AFB7CB} 
+#CreatePassword { border-color:#CCC; background-color:#AFB7CB}
+#ForgotPasswordbtn { border-color:#CCC; background-color:#AFB7CB} */
+/*#ContactPhone { border-color:#CCC; border-style:solid; border-width:thin;background-color: white;}
+#ContactPhoneRed { border-color:rgb(185, 74, 72); border-style:solid; border-width:thin; }
+#ContactPhone2 { border-color:#CCC; border-style:solid; border-width:thin;}
+#ContactPhone2Red { border-color:rgb(185, 74, 72); border-style:solid; border-width:thin;}
+#MobilePhone { border-color:#CCC}
+#MobilePhoneRed { border-color:rgb(185, 74, 72)}
+#FormWrapper {background-color: #CECECE;}
+#Cancelbtn {}
+#Cancelbtn2 {}*/
+/*
+#Cancelbtn { border-color:#CCC; background-color:#AFB7CB}
+#Cancelbtn2 { border-color:#CCC; background-color:#AFB7CB}
+*/
+/*#AreaCode { border-color:#CCC}
+#Prefix { border-color:#CCC}
+#Suffix { border-color:#CCC}
+#CellAreaCode { border-color:#CCC}
+#CellPrefix { border-color:#CCC}
+#CellSuffix { border-color:#CCC}
+
+#ForgotPassword { border-color:#CCC}
+#SecurityQuestion { border-color:#CCC; background-color:white}
+#SecurityAnswer { border-color:#CCC}
+#NewPassword {border-color:#CCC}
+#NewPassword2 {border-color:#CCC}
+
+#ChangePasswordbtn {}
+#CreatePasswordbtn {}
+#CreatePasswordbtn2 {}
+#SelectVendor {}*/
+
+/*
+#ChangePasswordbtn { border-color:#CCC; background-color:#AFB7CB}
+#CreatePasswordbtn { border-color:#CCC; background-color:#AFB7CB}
+#CreatePasswordbtn2 { border-color:#CCC; background-color:#AFB7CB}
+
+
+#SelectVendor { border-color:#CCC; background-color:#AFB7CB}
+#VendorSelect { border-color:#CCC}*/
+
+/*#VendorName {font-size:14px; font-weight:bold; color:#000000}*/
+
+/*#Heading {font-size:14px; font-weight:bold; color:#000000}
+#FindPayments2 { border-color:#CCC; background-color:#AFB7CB}
+
+#FindContracts {}
+#FindContracts2 {}*/
+
+/*
+#FindContracts { border-color:#CCC; background-color:#AFB7CB}
+#FindContracts2 { border-color:#CCC; background-color:#AFB7CB}
+*/
+/*#FY { border-color:#CCC; background-color:white;}
+#Agency { border-color:#CCC; background-color:white;}
+#ContAgy { border-color:#CCC}
+#ContSel { border-color:#CCC}
+#POType { border-color:#CCC; background-color:white;}
+#SortBy { border-color:#CCC}
+#AscDesc { border-color:#CCC}
+#Download { border-color:#CCC; background-color:#D2322D;}
+#FindDeductions {}
+#FindDeductions2 {}*/
+
+/*
+#FindDeductions { border-color:#CCC; background-color:#AFB7CB}
+#FindDeductions2 { border-color:#CCC; background-color:#AFB7CB}
+*/
+/*#MostRecentY { border-color:#CCC}
+#MostRecentN { border-color:#CCC}
+#StartDate { border-color:#CCC; border-style:solid; border-width:thin; background-color:white;}
+#EndDate { border-color:#CCC; border-style:solid; border-width:thin; background-color:white;}
+#SortBy { border-color:#CCC; background-color:white;}
+#SortAsc { border-color:#CCC}
+#SortDesc { border-color:#CCC}
+#Max { border-color:#CCC; background-color:white;}
+#FindWarrants {}
+#FindWarrants2 {}*/
+/*
+#FindWarrants { border-color:#CCC; background-color:#AFB7CB}
+#FindWarrants2 { border-color:#CCC; background-color:#AFB7CB}
+*/
+/*#InvSel { border-color:#CCC}
+#WarrantStatus { border-color:#CCC; background-color:white;}
+
+a.big-red{ font-weight: bold; color: #BF2D27; display: block; margin-top:20px; margin-bottom: 20px;}*/
+
+/* Deductions */
+/*#SocSecNo {background-color:#CCCCCC; font-weight:bold; color: black}
+#EmplName {background-color:#CCCCCC; font-weight:bold; color: black}
+#PPBeginDt {background-color:#CCCCCC; font-weight:bold; color: black}
+#PPEndDt {background-color:#CCCCCC; font-weight:bold; color: black}
+#GeneratedDt {background-color:#CCCCCC; font-weight:bold; color: black}
+#AnticipatedDt {background-color:#CCCCCC; font-weight:bold; color: black}
+#DeductionAmount {background-color:#CCCCCC; font-weight:bold; color: black}
+#WarrantTrace {background-color:#CCCCCC; font-weight:bold; color: black}
+#PayCode {background-color:#CCCCCC; font-weight:bold; color: black}*/
+
+/*#SocSecNo2 {color: black}
+#EmplName2 {color: black}
+#WarrantTrace2 {color: black}
+#PayCode2 {color: black}
+#PPBeginDt2 {color: black}
+#PPEndDt2 {color: black}
+#GeneratedDt2 {color: black}
+#AnticipatedD2t {color: black}
+#DeductionAmount2 {color: black}*/
+/*#Loginbtn {font-weight: bold; margin-bottom: 10px;}
+#Loginbtn2 {border-color:#CCC; background-color:#AFB7CB}
+#Register {}*/
+/* #Register {background-color:grey; color: #fff; font-weight: bold; margin-bottom: 10px;}
+#UserGuide {}*/
+/*#UserGuide {background-color:grey; color: #fff; font-weight: bold;} */
+/*#UserGuide2 { border-color:#CCC}*/
+
+/* Vendor Only */
+/*#Login2 {border-color:#CCC; background-color:#AFB7CB}
+#VendorTINName {border-color:#CCC}
+#CellPhone {border-color:#CCC}
+#CellProvider { border-color:#CCC; border-style:solid; border-width:thin; background-color:white;}
+#NotificationType{ border-color:#CCC; border-style:solid; border-width:thin}
+#Contracts {border-color:#CCC}
+#Payments2 {border-color:#CCC; background-color:#AFB7CB}*/
+
+
+/*#WarrantNo {background-color:#CCCCCC; font-weight:bold; color: black}
+#AddrInd {background-color:#CCCCCC; font-weight:bold; color: black}
+#ZipCode {background-color:#CCCCCC; font-weight:bold; color: black}
+#IssueDate {background-color:#CCCCCC; font-weight:bold; color: black}
+#Amount {background-color:#CCCCCC; font-weight:bold; color: black}
+#VNum {background-color:#CCCCCC; font-weight:bold; color: black}
+#PaidDate {background-color:#CCCCCC; font-weight:bold; color: black}*/
+
+/*#AnticipatedDt3 {color: black}
+#WarrantNo2 {color: black}
+#AddrInd2 {color: black}
+#ZipCode2 {color: black}
+#IssueDate2 {color: black}
+#Amount2 {color: black}
+#VNum2 {color: black}
+#PaidDate2 {color: black}*/
+
+/*#ContractAgency {background-color:#CCCCCC; font-weight:bold; color: black}
+#Contract {background-color:#CCCCCC; font-weight:bold; color: black}
+#Type {background-color:#CCCCCC; font-weight:bold; color: black}
+#FromDate {background-color:#CCCCCC; font-weight:bold; color: black}
+#ToDate {background-color:#CCCCCC; font-weight:bold; color: black}
+#Amount {background-color:#CCCCCC; font-weight:bold; color: black}
+#Obligated {background-color:#CCCCCC; font-weight:bold; color: black}
+#Expended {background-color:#CCCCCC; font-weight:bold; color: black}*/
+
+/*#ContractAgency2 {color: black}
+#Contract2 {color: black}
+#Type2 {color: black}
+#FromDate2 {color: black}
+#ToDate2 {color: black}
+#Amount2 {color: black}
+#Obligated2 {color: black}
+#Expended2 {color: black}*/
+
+/*#lightcolor {background-color:#7C91BC}*/
+/* Amy's Choice */
+/* #lightcolor {background-color:#4B6496} */
+/*#darkcolor {background-color: lightgray;} /*#647BA8*/
+/*#lightcolor {background-color: white;/*#AFB7CB*//*}*/
+
+/* Warrant Detail */
+/*#Agency3 {font-weight:bold; color: black}
+#Agency4 {font-weight:bold; color: black}
+#Invoice3 {font-weight:bold; color: black}
+#Invoice4 {font-weight:bold; color: black}
+#Contract3 {font-weight:bold; color: black}
+#Contract4 {font-weight:bold; color: black}
+#Voucher3 {font-weight:bold; color: black}
+#Voucher4 {font-weight:bold; color: black}
+#Amount3 {font-weight:bold; color: black}
+#Amount4 {font-weight:bold; color: black}
+#FY3 {font-weight:bold; color: black}
+#FY4 {font-weight:bold; color: black}
+#IssueDate3 {font-weight:bold; color: black}
+#IssueDate4 {font-weight:bold; color: black}
+#WarrantTotal3 {font-weight:bold; color: black}
+#WarrantTotal4 {font-weight:bold; color: black}
+#WarrantStatus3 {font-weight:bold; color: black}
+#WarrantStatus4 {font-weight:bold; color: black}
+#IOCDetails {background-color:#CCCCCC; font-weight:bold; color: black}
+#Fund3 {font-weight:bold; color: black}
+#Fund4 {font-weight:bold; color: black}
+#Organization3 {font-weight:bold; color: black}
+#Organization4 {font-weight:bold; color: black}
+#Appropriation3 {font-weight:bold; color: black}
+#Appropriation4 {font-weight:bold; color: black}
+#Object3 {font-weight:bold; color: black}
+#Object4 {font-weight:bold; color: black}
+#AppropName3 {font-weight:bold; color: black}
+#AppropName4 {font-weight:bold; color: black}
+#PaymentDesc {background-color:#CCCCCC; font-weight:bold; color: black}
+#Line3 {font-weight:bold; color: black}
+#Text3 {font-weight:bold; color: black}
+#AgencyInfo {background-color:#CCCCCC; font-weight:bold; color: black}*/
+
+/* Contract Detail */
+/*#FY4 {font-weight:bold; color: black}
+#FY5 {font-weight:bold; color: black}
+#Contract4 {color: black}
+#Type4 {color: black}
+#FromDate4 {font-weight:bold; color: black}
+#FromDate5 {font-weight:bold; color: black}
+#ToDate4 {font-weight:bold; color: black}
+#ToDate5 {font-weight:bold; color: black}
+#Amount4 {font-weight:bold; color: black}
+#Amount5 {font-weight:bold; color: black}
+#Agency4 {font-weight:bold; color: black}
+#Agency5 {font-weight:bold; color: black}
+#ContractTotal4 {font-weight:bold; color: black}
+#ContractTotal5 {font-weight:bold; color: black}
+#ContractType4 {font-weight:bold; color: black}
+#ContractType5 {font-weight:bold; color: black}
+#ClassCode4 {font-weight:bold; color: black}
+#ClassCode5 {font-weight:bold; color: black}*/
+/*select#NotificationType.has-error{ border-color: rgb(185, 74, 72) !important; }
+select#CellProvider.has-error{ border-color: rgb(185, 74, 72) !important; }
+input#Delete.has-error{ border-color: rgb(185, 74, 72) !important; }*/

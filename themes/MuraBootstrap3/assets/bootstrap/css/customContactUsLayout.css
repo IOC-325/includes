@@ -1,0 +1,18 @@
+/*!
+ * Andy Peterson 
+ * Custom CSS for Contact Us Section
+ * 
+ */
+
+#svMasterEmail {
+  width:500px;
+  text-align: center;
+}
+
+#regform input[type="radio"] {
+   position:absolute;
+   opacity: 0;
+   -moz-opacity: 0;
+   -webkit-opacity: 0;
+   -o-opacity: 0;
+}

@@ -1,0 +1,34 @@
+<cfinclude template="TmpVendorapplicationSettings.cfm">
+<cftry> 
+	<CFQUERY NAME="Results" DATASOURCE="DB2PRD" cachedwithin="#CreateTimeSpan(0,0,30,0)#">
+	 SELECT wh.PENDING_PAYMENTS.*, (select Distinct Name From wh.AGENCY where wh.AGENCY.AGENCY = wh.PENDING_PAYMENTS.AGENCY) Name
+	 FROM wh.PENDING_PAYMENTS
+	 WHERE
+	  VENDOR_TIN = <cfqueryparam cfsqltype="cf_sql_varchar" value="#vendTIN#" />
+	 ORDER BY Voucher_Date, Voucher_Amt
+	</CFQUERY>
+
+
+	<!---<CFQUERY NAME="Results" DATASOURCE="DB2TST" >
+	 SELECT *
+	 FROM wh.PENDING_PAYMENTS, wh.AGENCY
+	 WHERE
+	 	wh.PENDING_PAYMENTS.AGENCY = wh.AGENCY.AGENCY 
+	  AND wh.PENDING_PAYMENTS.FISCAL_YEAR = wh.AGENCY.FISCAL_YEAR	 
+	 AND wh.PENDING_PAYMENTS.Agency = 420;
+	</CFQUERY>
+	--->	
+<!--- 	<CFQUERY NAME="Results" DATASOURCE="DB2TST" >
+	 SELECT *
+	 FROM wh.AGENCY
+	 AND wh.AGENCY.AGENCY = '420'
+	</CFQUERY>	 
+	<cfdump var="#Results#" abort="true">--->
+<!--- 
+	Name,wh.PENDING_PAYMENTS.AGENCY,	SCHED_PYMNT_DATE,	VENDOR_TIN,	VOUCHER_AMT,	VOUCHER_DATE, wh.PENDING_PAYMENTS.VOUCHER_NUMBER, Left(wh.PENDING_PAYMENTS.VOUCHER_NUMBER,1) AS Temp
+--->
+<!--- #vendTIN# cachedwithin="#CreateTimeSpan(0,0,30,0)#"   #Year(Now())#--->
+<cfcatch type="database">
+	 <b>Sorry, but the Vendor application is not available at this time.  Please try again later!</b><cfabort>
+	</cfcatch>
+</cftry>
